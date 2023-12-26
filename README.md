@@ -1,6 +1,7 @@
 # News App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). and APIs are from NewsAPI.com
+This web application has been created to fetch the news category wise. 
 
 ## Available Scripts
 
