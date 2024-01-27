@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, {useEffect ,useState} from "react";
 import NewsItem from "./NewsItem";
 import Spinner from "./Spinner";
@@ -31,7 +32,7 @@ const News =(props)=> {
     useEffect(() => {
       document.title = `${capitalizeFirstLetter(props.category)} - NewsMonkey`;
       updateNews(); 
-    },[])
+    },[totalResults])
 
 
 //   const handlePrevClick = async () => {
